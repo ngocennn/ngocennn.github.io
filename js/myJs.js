@@ -14,9 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'He luu ngọc ennn!',
-        text: 'Tớ có điều này muốn hỏi ngọc ennn nhớ phải trả lời tớ thật lòng nhaaa.',
-        text: 'hihihihihihi',
+        title: 'Xin chào ngọc ennn!',
+        text: 'Hôm nay tớ có vài lời muốn nói với ngọc en, ngọc en lắng nghe tui nhé <3',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -97,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do ngọc en thích tớ đi :vvvv',
+        title: 'Nói cho tớ nghe ngọc en có iu tớ không nào...',
         html: true,
         width: 900,
         padding: '3em',
