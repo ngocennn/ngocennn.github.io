@@ -15,7 +15,7 @@ function firstQuestion(){
     $('.content').hide();
     Swal.fire({
         title: 'Xin chào ngọc ennn!',
-        text: 'Hôm nay tớ có vài lời muốn nói với ngọc en, ngọc en lắng nghe tui nhé <3',
+        text: 'Hôm nay tui có vài lời muốn nói với ngọc en, ngọc en lắng nghe tui nheee <3',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
