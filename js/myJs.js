@@ -27,7 +27,7 @@ function firstQuestion(){
 }
 
  // switch button position
- function switchButton() {
+/* function switchButton() {
     var audio = new Audio('sound/duck.mp3');
     audio.play();
     var leftNo = $('#no').css("left");
@@ -69,7 +69,7 @@ $('#no').click(() => {
     if (screen.width>=900)
         switchButton();
 })
-
+*/
 // generate text in input
 function textGenerate() {
     var n = "";
