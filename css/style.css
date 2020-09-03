@@ -40,14 +40,21 @@
 
 header h2 {
   font-family: 'Pacifico';
-  color: #9ACD32	; /chỗ này chắc là màu của tiêu đề lớn nè
+  color: #FF0099	; /chỗ này chắc là màu của tiêu đề lớn nè
   font-size: 80px;
   text-align: center;
 	margin-bottom: 30px;
 }
 header h4 {
   font-family: 'Pacifico';
+  color: #FF0099;
   text-align: center;
+	margin-bottom: 20px;
+}
+header h5 {
+  font-family: 'Pacifico';
+  text-align: center;
+  color: #FF66CC;
 }
 
 @media only screen and (max-width: 500px) {
@@ -64,6 +71,13 @@ header h4 {
     text-align: center;
     padding: 15px;
   }
+  header h5 {
+  font-family: 'Pacifico';
+  text-align: center;
+  color: #FF66CC;
+  padding: 50px;
+}
+
   #no{
     position: absolute;
     display: inline-block;
